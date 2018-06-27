@@ -28,5 +28,6 @@ namespace InGame.BestPractice.Store.Dto
         public string Name { get; set; }
         [StringLength(Category.MaxDescriptionLength)]
         public string Description { get; set; }
+        public int? ParentCategoryId { get; set; }
     }
 }
